@@ -250,6 +250,10 @@ footer .info_item {
   margin-right: 70px;
 }
 
+.footer_item:last-child {
+  margin: 0;
+}
+
 .footer_text {
   font-weight: 700;
   font-size: 14px;
