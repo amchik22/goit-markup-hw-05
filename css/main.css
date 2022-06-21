@@ -219,9 +219,9 @@
   transition: opacity 250ms linear, visibility 250ms linear;
 }
 
-.backdrop.is-hidden .modal {
+/* .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(-180deg);
-}
+} */
 
 .modal {
   position: absolute;
@@ -231,6 +231,7 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1) rotate(0);
   background-color: #fff;
+  /* transition: transform var(--transition); */
 }
 
 .modal-close-btn {
@@ -244,7 +245,7 @@
   justify-content: center;
   border-radius: 50%;
   background-color: transparent;
-  border: 1px solid 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-hidden {

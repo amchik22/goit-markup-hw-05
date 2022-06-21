@@ -179,6 +179,10 @@ header .container {
   height: 44px;
 }
 
+.social_links a {
+  border-radius: 50%;
+}
+
 .social_link {
   display: flex;
   justify-content: center;
