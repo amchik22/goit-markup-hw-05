@@ -4,10 +4,11 @@
   --primary-bg-color: #fff;
   --background-team-color: #f5f4fa;
   --accent-color: #2196f3;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .transition {
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -66,7 +67,7 @@ img {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  transition-property: unset;
+  transition-property: color;
   transition: var(--transition);
 }
 
@@ -129,7 +130,7 @@ header .container {
   color: var(--title-color);
   position: relative;
   transition: var(--transition);
-  transition-property: unset;
+  transition-property: color;
 }
 
 .current::after {
@@ -167,7 +168,7 @@ header .container {
   align-items: center;
   gap: 10px;
   transition: var(--transition);
-  transition-property: unset;
+  transition-property: color;
 }
 
 .social_wrapper {
@@ -194,6 +195,7 @@ header .container {
   height: 100%;
   fill: #afb1b8;
   transition: var(--transition);
+  transition-property: background-color;
 }
 
 .social_link:focus,
