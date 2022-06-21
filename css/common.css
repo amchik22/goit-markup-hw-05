@@ -66,7 +66,7 @@ img {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-
+  transition-property: unset;
   transition: var(--transition);
 }
 
@@ -128,6 +128,8 @@ header .container {
   font-weight: 500;
   color: var(--title-color);
   position: relative;
+  transition: var(--transition);
+  transition-property: unset;
 }
 
 .current::after {
@@ -165,6 +167,7 @@ header .container {
   align-items: center;
   gap: 10px;
   transition: var(--transition);
+  transition-property: unset;
 }
 
 .social_wrapper {

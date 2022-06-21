@@ -176,6 +176,7 @@
 
 .clients_wrapper a {
   transition: var(--transition);
+  transition-property: unset;
 }
 
 .clients_item {
