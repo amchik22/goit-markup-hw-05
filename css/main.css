@@ -248,6 +248,13 @@
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+  transition-property: fill;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: var(--accent-color);
 }
 
 .is-hidden {
