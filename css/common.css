@@ -4,7 +4,7 @@
   --primary-bg-color: #fff;
   --background-team-color: #f5f4fa;
   --accent-color: #2196f3;
-  --transition: 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .transition {
@@ -77,19 +77,12 @@ img {
   color: var(--primary-bg-color);
 }
 
-.info_item_icon {
-  fill: currentColor;
-  transition: var(--transition);
-}
-
 .header_menu_item:hover,
 .header_menu_item:focus,
 .info_item:hover,
 .info_item:focus,
 .info_item_icon:hover {
   color: var(--accent-color);
-  fill: var(--accent-color);
-  stroke: var(--accent-color);
 }
 
 header {
@@ -169,7 +162,13 @@ header .container {
   align-items: center;
   gap: 10px;
   transition: var(--transition);
-  transition-property: color, fill;
+  transition-property: color;
+}
+
+.info_item_icon {
+  fill: currentColor;
+  transition: var(--transition);
+  transition-property: color;
 }
 
 .social_wrapper {

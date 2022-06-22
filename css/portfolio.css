@@ -14,7 +14,7 @@
   border-radius: 4px;
   background-color: var(--background-team-color);
   transition: var(--transition);
-  transition-property: background-color, color;
+  transition-property: background-color, color, box-shadow;
   cursor: pointer;
 }
 .main-bg-btn:hover,
@@ -51,9 +51,11 @@
   color: var(--title-color);
 }
 
-.mainbg-item {
+.mainbg-item a {
   width: 370px;
   position: relative;
+  transition: var(--transition);
+  transition-property: box-shadow;
 }
 
 .mainbg-item:hover .mainbg-img-text {
